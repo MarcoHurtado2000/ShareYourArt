@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="contact-form">
+        <div class="div">
+            <div class="overlap">
+                <div class="overlap-group">
+                    <div class="form">
+                        <form action="insertar_curso.php" method="POST"> <!-- Modificación aquí -->
+                            <div class="input">
+                                <div class="text-wrapper">Nombre curso</div>
+                                <div class="field">
+                                    <input type="text" name="nombre_curso" class="label" placeholder="Nombre del curso" />
+                                </div>
+                                <div class="input-2">
+                                    <div class="text-wrapper">Duración</div>
+                                    <div class="label-wrapper">
+                                        <div><input type="text" name="duracion_curso" class="duration-input" placeholder="00 : 00" /> <!-- Se añade un input para que el usuario ingrese la duración -->
+                                        <span class="label-2">&nbsp;&nbsp;min</span> </div> <!-- Se añade el texto "min" después del input -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </form> <!-- Modificación aquí -->
+                    </div>
+                    <div class="headline">
+                        <div class="drag-n-drop">
+                            <div class="overlap-2">
+                                <img class="group" src="img/group-1.png" />
+                                <p class="p">Drag and drop files to upload</p>
+                                <div class="text-wrapper-3">OR</div>
+                                <div class="overlap-group-wrapper">
+                                    <div class="overlap-group-2">
+                                        <div class="rectangle"></div>
+                                        <div class="text-wrapper-4">Subir Archivo</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-3">
+                    <div class="text-wrapper">Categoría</div>
+                    <div class="element-dropdown">
+                        <select name="categoria" class="label-3"> <!-- Modificación aquí -->
+                            <option value="">Seleccione una categoria</option>
+                            <option value="categoria1">Ciencias</option>
+                            <option value="categoria2">Humanidades</option>
+                            <option value="categoria3">Tecnologia</option>
+                            <option value="categoria3">Ciencias Sociales</option>
+                            <option value="categoria3">Artes</option>
+                            <option value="categoria3">Negocios</option>
+                            <option value="categoria3">Idiomas</option>
+                        </select>
+                        <img class="chevron-down" src="img/chevron-down.svg" />
+                    </div>
+                </div>
+            </div>
+            <div class="text-wrapper-5">CREAR CURSO</div>
+            <div class="overlap-3">
+                <div class="text-wrapper-6">perfil_usuario</div>
+                <div class="graphic"></div>
+            </div>
+            <img class="ellipse" src="img/ellipse-1.svg" />
+            <div class="element-paragraph-with">
+                <div class="text-wrapper-7">Descripción del curso</div>
+                <textarea name="descripcion" class="text-wrapper-8" placeholder="*Describa un poco de lo que se trata el curso"></textarea> <!-- Modificación aquí -->
+                <button type="submit" class="button"> <!-- Modificación aquí -->
+                    <div class="text-wrapper-9">Subir curso</div>
+                </button>
+            </div>
+            <div class="rectangle-2"></div>
+        </div>
+    </div>
+</body>
+
+</html>

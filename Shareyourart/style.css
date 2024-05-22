@@ -1,0 +1,632 @@
+.contact-form {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-form .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1285px;
+    position: relative;
+}
+
+.contact-form .overlap {
+    position: absolute;
+    width: 1088px;
+    height: 721px;
+    top: 250px;
+    left: 84px;
+}
+
+.contact-form .overlap-group {
+    position: absolute;
+    width: 995px;
+    height: 721px;
+    top: 0;
+    left: 0;
+}
+
+.contact-form .form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 766px;
+    height: 708px;
+    align-items: flex-start;
+    gap: var(--variable-collection-spacing-SM);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact-form .input {
+    display: flex;
+    flex-direction: column;
+    width: 783px;
+    height: 188px;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    margin-right: -17px;
+}
+
+.contact-form .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--small-text-font-family);
+    font-weight: var(--small-text-font-weight);
+    color: #000000;
+    font-size: var(--small-text-font-size);
+    letter-spacing: var(--small-text-letter-spacing);
+    line-height: var(--small-text-line-height);
+    font-style: var(--small-text-font-style);
+}
+
+.contact-form .field {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    box-shadow: 0px 1px 2px #0000000d, 0px 4px 4px #00000040;
+}
+
+.contact-form .label {
+    position: relative;
+    width: 263px;
+    margin-top: -1px;
+    font-family: var(--small-text-font-family);
+    font-weight: var(--small-text-font-weight);
+    color: #828282;
+    font-size: var(--small-text-font-size);
+    letter-spacing: var(--small-text-letter-spacing);
+    line-height: var(--small-text-line-height);
+    font-style: var(--small-text-font-style);
+}
+
+.contact-form .input-2 {
+    width: 995px;
+    height: 134px;
+    position: relative;
+    margin-bottom: -34px;
+    margin-right: -212px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.contact-form .label-wrapper {
+    display: flex;
+    width: 145px;
+    height: 50px;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px 16px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    box-shadow: 0px 1px 2px #0000000d, 0px 4px 4px #00000040;
+}
+
+.contact-form .label-2 {
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--small-text-font-family);
+    font-weight: var(--small-text-font-weight);
+    color: #828282;
+    white-space: nowrap;
+    position: relative;
+    font-size: var(--small-text-font-size);
+    letter-spacing: var(--small-text-letter-spacing);
+    line-height: var(--small-text-line-height);
+    font-style: var(--small-text-font-style);
+}
+
+.contact-form .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: #ffffff;
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    white-space: nowrap;
+    font-style: var(--body-text-font-style);
+}
+
+.contact-form .headline {
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+    align-items: flex-start;
+    gap: var(--variable-collection-spacing-s);
+    position: absolute;
+    top: 220px;
+    left: 371px;
+}
+
+.contact-form .drag-n-drop {
+    position: relative;
+    width: 460px;
+    height: 501.42px;
+}
+
+.contact-form .overlap-2 {
+    position: relative;
+    width: 456px;
+    height: 501px;
+    border-radius: 20px;
+    border: 1px dashed;
+    border-color: #000000;
+}
+
+.contact-form .group {
+    position: absolute;
+    width: 119px;
+    height: 73px;
+    top: 119px;
+    left: 168px;
+}
+
+.contact-form .p {
+    position: absolute;
+    width: 185px;
+    top: 204px;
+    left: 134px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.contact-form .text-wrapper-3 {
+    position: absolute;
+    width: 34px;
+    top: 284px;
+    left: 210px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.contact-form .overlap-group-wrapper {
+    position: absolute;
+    width: 202px;
+    height: 36px;
+    top: 342px;
+    left: 127px;
+}
+
+.contact-form .overlap-group-2 {
+    position: relative;
+    width: 200px;
+    height: 38px;
+    top: -1px;
+}
+
+.contact-form .rectangle {
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    top: 0;
+    left: 10px;
+    background-color: #ffb859;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: transparent;
+    box-shadow: 0px 4px 4px #cc7400;
+    border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgb(255, 255, 255)) 1;
+}
+
+.contact-form .text-wrapper-4 {
+    position: absolute;
+    width: 200px;
+    top: 10px;
+    left: 0;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    line-height: normal;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.contact-form .input-3 {
+    width: 322px;
+    position: absolute;
+    top: 0;
+    left: 766px;
+    opacity: 0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.contact-form .element-dropdown {
+    display: flex;
+    width: 297px;
+    height: 48px;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 16px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+.contact-form .label-3 {
+    flex: 1;
+    font-family: var(--presets-body2-font-family);
+    font-weight: var(--presets-body2-font-weight);
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    position: relative;
+    font-size: var(--presets-body2-font-size);
+    letter-spacing: var(--presets-body2-letter-spacing);
+    line-height: var(--presets-body2-line-height);
+    font-style: var(--presets-body2-font-style);
+}
+
+.contact-form .chevron-down {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.contact-form .text-wrapper-5 {
+    position: absolute;
+    width: 624px;
+    top: 47px;
+    left: 80px;
+    font-family: var(--title-font-family);
+    font-weight: var(--title-font-weight);
+    color: #000000;
+    font-size: var(--title-font-size);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    font-style: var(--title-font-style);
+}
+
+.contact-form .overlap-3 {
+    position: absolute;
+    width: 624px;
+    height: 105px;
+    top: 55px;
+    left: 1064px;
+}
+
+.contact-form .text-wrapper-6 {
+    position: absolute;
+    width: 624px;
+    height: 36px;
+    top: 31px;
+    left: 0;
+    font-family: var(--subheading-font-family);
+    font-weight: var(--subheading-font-weight);
+    color: #828282;
+    font-size: var(--subheading-font-size);
+    letter-spacing: var(--subheading-letter-spacing);
+    line-height: var(--subheading-line-height);
+    font-style: var(--subheading-font-style);
+}
+
+.contact-form .graphic {
+    position: absolute;
+    width: 116px;
+    height: 105px;
+    top: 0;
+    left: 171px;
+    border-radius: 48px;
+    background-image: url(./img/graphic.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.contact-form .ellipse {
+    position: absolute;
+    width: 120px;
+    height: 115px;
+    top: -847px;
+    left: 2296px;
+}
+
+.contact-form .element-paragraph-with {
+    display: flex;
+    flex-direction: column;
+    width: 974px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--variable-collection-spacing-s);
+    position: absolute;
+    top: 1016px;
+    left: 145px;
+}
+
+.contact-form .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--heading-font-family);
+    font-weight: var(--heading-font-weight);
+    color: #000000;
+    font-size: var(--heading-font-size);
+    letter-spacing: var(--heading-letter-spacing);
+    line-height: var(--heading-line-height);
+    font-style: var(--heading-font-style);
+}
+
+.contact-form .text-wrapper-8 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--subheading-font-family);
+    font-weight: var(--subheading-font-weight);
+    color: #828282;
+    font-size: var(--subheading-font-size);
+    letter-spacing: var(--subheading-letter-spacing);
+    line-height: var(--subheading-line-height);
+    font-style: var(--subheading-font-style);
+}
+
+.contact-form .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: var(--button-shadow);
+}
+
+.contact-form .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    color: #ffffff;
+    font-size: var(--small-text-font-size);
+    line-height: var(--small-text-line-height);
+    font-family: var(--small-text-font-family);
+    font-weight: var(--small-text-font-weight);
+    letter-spacing: var(--small-text-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--small-text-font-style);
+}
+
+.contact-form .rectangle-2 {
+    position: absolute;
+    width: 1111px;
+    height: 795px;
+    top: 409px;
+    left: 1697px;
+    background-color: #d9d9d9;
+}
+
+.input-3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 200px;
+    /* Adjust the width as needed */
+}
+
+.text-wrapper {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.element-dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.label-3 {
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chevron-down {
+    width: 16px;
+    height: 16
+}
+
+.list {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.list .div {
+    background-color: #ffffff;
+    width: 375px;
+    height: 812px;
+    position: relative;
+}
+
+.list .icon-filter {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 64px;
+    left: 321px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.list .filter {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    left: 8px;
+}
+
+.list .search {
+    display: flex;
+    width: 295px;
+    height: 40px;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px 8px 12px;
+    position: absolute;
+    top: 64px;
+    left: 11px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #e0e0e0;
+}
+
+.list .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.list .label {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: var(--presets-body2-font-family);
+    font-weight: var(--presets-body2-font-weight);
+    color: #828282;
+    font-size: var(--presets-body2-font-size);
+    letter-spacing: var(--presets-body2-letter-spacing);
+    line-height: var(--presets-body2-line-height);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-style: var(--presets-body2-font-style);
+}
+
+.list .text-wrapper {
+    position: absolute;
+    top: 22px;
+    left: 16px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+.list .div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 364px;
+    align-items: flex-start;
+    position: absolute;
+    top: 131px;
+    left: 11px;
+}
+
+.list .task {
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+    position: relative;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #e0e0e0;
+}
+
+.list .text-wrapper-2 {
+    position: relative;
+    width: 200px;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.list .div-wrapper {
+    width: 364px;
+    height: 37px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+    position: relative;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #e0e0e0;
+}
+
+.list .text-wrapper-3 {
+    position: relative;
+    width: 358px;
+    height: 27px;
+    margin-top: -6px;
+    margin-bottom: -4px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
